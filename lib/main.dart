@@ -14,9 +14,8 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'PointMaker',
-      home: OnBoardingPage(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'PointMaker',
+        home: OnBoardingPage());
   }
 }

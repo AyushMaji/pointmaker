@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import '../homepage.dart';
+import 'package:pointmaker/homepage.dart';
 
 class OnBoardingPage extends StatefulWidget {
   @override
@@ -89,7 +89,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         style: TextStyle(
             fontWeight: FontWeight.bold,
             fontFamily: "Merienda",
-            color: Colors.grey),
+            color: Colors.green),
       ),
       next: Nextbutton(),
       done: Nextbutton(),
