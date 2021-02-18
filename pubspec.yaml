@@ -23,6 +23,7 @@ environment:
 dependencies:
   introduction_screen: ^1.0.9
   bubble_bottom_bar: ^1.2.0
+  carousel_slider: ^3.0.0
   flutter_login: ^1.0.14
   google_fonts: ^1.1.2
   flutter:
@@ -49,7 +50,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/introduction/
-  #   - images/a_dot_ham.jpeg
+    - assets/Addpoint/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
