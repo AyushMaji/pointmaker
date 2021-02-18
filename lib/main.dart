@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pointmaker/screenpage/onbording.dart';
+import 'package:pointmaker/MainNavbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'PointMaker',
-        home: OnBoardingPage());
+        home: MainNavbar());
   }
 }
