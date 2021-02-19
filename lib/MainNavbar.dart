@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bubble_bottom_bar/bubble_bottom_bar.dart';
 import 'package:pointmaker/screenpage/addpoint/addpointpage.dart';
+import 'package:pointmaker/screenpage/allActivity/allactivity.dart';
 
 class MainNavbar extends StatefulWidget {
   @override
@@ -30,7 +31,7 @@ class _MainNavbarState extends State<MainNavbar> {
       child: AddPoint(),
     ),
     Container(
-      child: Text("contaner_3"),
+      child: AllActivity(),
     ),
     Container(
       child: Text("contaner_4"),
